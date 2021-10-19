@@ -25,7 +25,7 @@ git clone https://github.com/executablebooks/quantecon-mini-example
 - cd into the folder
 
 ```bash
-cd quantecon-mini-example
+cd tfx
 ```
 
 - Now we install all needed Python libraries from the `environment.yml` file. This includes the latest version of Tensor Flow and Tensor Flow Extended: 
