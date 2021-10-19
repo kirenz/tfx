@@ -39,7 +39,7 @@ cd tfx
 conda env create -f environment.yaml
 ```
 
-- Now activate the environment (tfx-env):
+-  Activate the `tfx-env` environment:
 
 ```bash
 conda activate tfx-env
