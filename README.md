@@ -1,11 +1,10 @@
 # Tensor Flow Extended Tutorials
 
-- Ensure you have a recent version of Anaconda Python installed: 
+First, we need to ensure you have a recent version of **Anaconda** installed: 
 
-  - If you don't have Anaconda, follow this [installation tutorial](https://kirenz.github.io/codelabs/codelabs/anaconda-install/#0). 
-  - If you already have Anaconda:
-    - On *Windows* open the Start menu and open an Anaconda Command Prompt. 
-    - On *macOS* or *Linux* open a terminal window:
+- If you don't have Anaconda, follow this [Anaconda installation tutorial](https://kirenz.github.io/codelabs/codelabs/anaconda-install/#0). 
+
+- If you already have Anaconda: On *Windows* open the Start menu and open an Anaconda Command Prompt. On *macOS* or *Linux* open a terminal window:
 
 ```bash
 conda update python
@@ -14,8 +13,6 @@ conda update python
 ```bash
 conda update --all
 ```
-
----
 
 - In your terminal: `cd` into a folder you want to install all demos.
 
