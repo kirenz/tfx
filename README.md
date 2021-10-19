@@ -19,7 +19,7 @@ conda update --all
 - Clone the repository containing all demos
 
 ```bash
-git clone https://github.com/executablebooks/quantecon-mini-example
+git clone https://github.com/kirenz/tfx
 ```
 
 - cd into the folder
