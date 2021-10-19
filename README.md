@@ -2,7 +2,19 @@
 
 1. Ensure you have a recent version of Anaconda Python installed.
 
+  - On *Windows* open the Start menu and open an Anaconda Command Prompt. 
+  - On *macOS* or *Linux* open a terminal window.
+
+```bash
+conda update python
+```
+
+```bash
+conda update --all
+```
+
 1. In your terminal: `cd` into a folder you want to install all demos.
+
 
 1. Clone the repository containing all demos
 
