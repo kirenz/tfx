@@ -7,8 +7,7 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
-  - jupyterlab
-  - notebook
+  - jupyter
   - pip:
     - tensorflow-cpu
     - tfx
