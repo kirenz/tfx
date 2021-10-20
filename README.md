@@ -36,7 +36,7 @@ cd tfx
 - Now we install all needed Python libraries from the `environment.yml` file. This includes the latest version of Tensor Flow and Tensor Flow Extended: 
 
 ```bash
-conda env create -f environment.yaml
+conda env create -f environment.yml
 ```
 
 -  Activate the `tfx-env` environment:
