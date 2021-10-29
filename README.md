@@ -2,9 +2,9 @@
 
 First, we need to ensure you have a recent version of **Anaconda** installed: 
 
-- If you don't have Anaconda, follow this [Anaconda installation tutorial](https://kirenz.github.io/codelabs/codelabs/anaconda-install/#0). 
+- 1. If you don't have Anaconda, follow this [Anaconda installation tutorial](https://kirenz.github.io/codelabs/codelabs/anaconda-install/#0). 
 
-- If you already have Anaconda: On *Windows* open the Start menu and open an Anaconda Command Prompt. On *macOS* or *Linux* open a terminal window:
+- 2. If you already have Anaconda: On *Windows* open the Start menu and open an Anaconda Command Prompt. On *macOS* or *Linux* open a terminal window:
 
 ```bash
 conda update python
@@ -14,40 +14,45 @@ conda update python
 conda update --all
 ```
 
-- In your terminal: `cd` into a folder you want to install all demos.
+- 3. In your terminal: `cd` into a folder you want to install all demos.
 
 ```bash
 cd your-path
 ```
 
 
-- Clone the repository containing all demos
+- 4. Clone the repository containing all demos
 
 ```bash
 git clone https://github.com/kirenz/tfx
 ```
 
-- cd into the tfx folder
+- 5. cd into the tfx folder
 
 ```bash
 cd tfx
 ```
 
-- Now we install all needed Python libraries from the `environment.yml` file to create a virtual environment named `tfx-env`. This includes the latest version of Tensor Flow and Tensor Flow Extended: 
+- 6. Now we install all needed Python libraries from the `environment.yml` file to create a virtual environment named `tfx-env`. This includes the latest version of Tensor Flow and Tensor Flow Extended: 
 
 ```bash
 conda env create -f environment.yml
 ```
 
--  Activate the `tfx-env` environment:
+> Note: if you have problems with executing `environment.yml` you can proceed as follows: 
+>
+> - delete the code in `environment.yml`and replace it with the content in `environment_2.yml`
+> - repeat step 6
+
+- 7. Activate the `tfx-env` environment:
 
 ```bash
 conda activate tfx-env
 ```
 
-- Check your version of TFX with `tfx_check.ipynb`.
+- 8. Check your version of TFX with `tfx_check.ipynb`.
 
-- Go to the folder `penguin_template` and use the starter code in `penguin_simple.ipynb` to build your TFX-pipeline.
+- 9. Go to the folder `penguin_template` and use the starter code in `penguin_simple.ipynb` to build your TFX-pipeline.
 
-- The folder `penguin_solution` includes a succesfull run of the `penguin_simple.ipynb` file. 
+- 10. The folder `penguin_solution` includes a succesfull run of the `penguin_simple.ipynb` file. 
 
