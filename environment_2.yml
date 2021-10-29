@@ -1,0 +1,13 @@
+name: tfx-env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip:
+    - tensorflow-cpu
+    - tfx
