@@ -2,7 +2,7 @@
 
 First, we need to ensure you have a recent version of **Anaconda** installed: 
 
-- 1) If you don't have Anaconda, follow this [Anaconda installation tutorial](https://kirenz.github.io/codelabs/codelabs/anaconda-install/#0). 
+- 1. If you don't have Anaconda, follow this [Anaconda installation tutorial](https://kirenz.github.io/codelabs/codelabs/anaconda-install/#0). 
 
 - 2. If you already have Anaconda: On *Windows* open the Start menu and open an Anaconda Command Prompt. On *macOS* or *Linux* open a terminal window:
 
@@ -42,7 +42,7 @@ conda env create -f environment.yml
 > Note: if you have problems with executing `environment.yml` you can proceed as follows: 
 >
 > - delete the code in `environment.yml` and replace it with the content in `environment_2.yml`
-> - repeat step 6
+> - repeat step vi
 
 - 7. Activate the `tfx-env` environment:
 
