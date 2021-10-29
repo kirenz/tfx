@@ -47,7 +47,7 @@ conda activate tfx-env
 
 - Check your version of TFX with `tfx_check.ipynb`.
 
-- Go to the folder `penguin_template` and use the starter code in `penguin_simple.ipynb`to build your TFX-pipeline.
+- Go to the folder `penguin_template` and use the starter code in `penguin_simple.ipynb` to build your TFX-pipeline.
 
 - The folder `penguin_solution` includes a succesfull run of the `penguin_simple.ipynb` file. 
 
