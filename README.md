@@ -33,7 +33,7 @@ git clone https://github.com/kirenz/tfx
 cd tfx
 ```
 
-- Now we install all needed Python libraries from the `environment.yml` file. This includes the latest version of Tensor Flow and Tensor Flow Extended: 
+- Now we install all needed Python libraries from the `environment.yml` file to create a virtual environment named `tfx-env`. This includes the latest version of Tensor Flow and Tensor Flow Extended: 
 
 ```bash
 conda env create -f environment.yml
@@ -45,4 +45,9 @@ conda env create -f environment.yml
 conda activate tfx-env
 ```
 
+- Check your version of TFX with `tfx_check.ipynb`.
+
+- Go to the folder `penguin_template` and use the starter code in `penguin_simple.ipynb` to build your TFX-pipeline.
+
+- The folder `penguin_solution` includes a succesfull run of the `penguin_simple.ipynb` file. 
 
