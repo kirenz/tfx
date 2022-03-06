@@ -36,11 +36,6 @@ cd tfx
 conda env create -f environment.yml
 ```
 
-> Note: if you have problems with executing `environment.yml` you can proceed as follows: 
->
-> - delete the code in `environment.yml` and replace it with the content in `environment_2.yml`
-> - repeat step vi
-
 - 7. Activate the `tfx-env` environment:
 
 ```bash
