@@ -4,10 +4,9 @@ channels:
 dependencies:
   - python=3.8
   - pip
-  - pandas
-  - matplotlib
-  - seaborn
-  - jupyter
   - pip:
-    - tensorflow-cpu
     - tfx
+    - tensorflow-datasets
+    - seaborn
+    - scikit-learn
+    - jupyter
