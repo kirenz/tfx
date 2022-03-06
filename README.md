@@ -6,9 +6,6 @@ First, we need to ensure you have a recent version of **Anaconda** installed:
 
 - 2. If you already have Anaconda: On *Windows* open the Start menu and open an Anaconda Command Prompt. On *macOS* or *Linux* open a terminal window:
 
-```bash
-conda update python
-```
 
 ```bash
 conda update --all
