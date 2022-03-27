@@ -48,3 +48,8 @@ conda activate tfx-env
 
 - The folder `penguin_solution` includes a succesfull run of the `penguin_simple.ipynb` file. 
 
+
+### Code
+
+1. Penguin_simple
+1. Penguin_tfdv 
