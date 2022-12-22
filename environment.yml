@@ -2,7 +2,7 @@ name: tfx-env
 channels:
   - defaults
 dependencies:
-  - python=3.8
+  - python=3.p
   - pip
   - pip:
     - tfx
